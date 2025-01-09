@@ -22,14 +22,14 @@
 
 # Program Application Setup：
 
-ZigBee Wireless Sensor Network：
+## ZigBee Wireless Sensor Network：
 
   1.Navigate to the directory “ZStack-CC2530-2.5.1a/Projects/zstack/Samples/GenericApp/CC2530DB/” and open the GenericApp.eww project using IAR Embedded Workbench for 8051.  
   2.Build the “EndDevice” and “Coordinator” separately, then use CC Debugger to download the application to the CC2530 board. (Note: When downloading the EndDevice, manually modify the node ID value at line 151 in the enddevice.c file, for example, change it to ‘1’ or ‘2’).  
   3.Connect all sensors to the EndDevice and link the Coordinator to the robot via the serial port.  
 
 
-Qt-based Remote Monitoring Application：
+## Qt-based Remote Monitoring Application：
 
   1.In the home directory of the Ubuntu system, create a new workspace using the command line and compile it. Download and extract the "qt_ros_test.zip" package file to the src folder of this workspace. Then, set the appropriate permissions for the package and compile it.
 
@@ -44,7 +44,7 @@ Qt-based Remote Monitoring Application：
   6.After navigating to the directory, enter the “bash initssh.sh”and “roslaunch qt_ros_test qt_ros_test.launch” commands in the terminal to start the package。
 
 
-Create OneNET Corresponding Device and Data Stream：
+## Create OneNET Corresponding Device and Data Stream：
 
   1.Log in to the OneNET cloud platform and register the relevant product (select HTTP as the access protocol). Obtain the product name, ID, device key, etc., and use the token to calculate and obtain the encrypted security authentication key.
 
