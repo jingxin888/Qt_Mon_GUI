@@ -31,15 +31,15 @@ ZigBee Wireless Sensor Network：
 
 Qt-based Remote Monitoring Application：
 
-1. In the home directory of the Ubuntu system, create a new workspace using the command line and compile it. Download and extract the "qt_ros_test.zip" package file to the src folder of this workspace. Then, set the appropriate permissions for the package and compile it.
+1.In the home directory of the Ubuntu system, create a new workspace using the command line and compile it. Download and extract the "qt_ros_test.zip" package file to the src folder of this workspace. Then, set the appropriate permissions for the package and compile it.
 
-2. Install the required dependencies (e.g., expect) and add the path of the package's script folder to the .bashrc file:export PATH=$PATH:/home/your_directory_name/your_workspace_name/src/qt_ros_test/script. Afterward, initialize the environment variables.
+2.Install the required dependencies (e.g., expect) and add the path of the package's script folder to the .bashrc file:export PATH=$PATH:/home/your_directory_name/your_workspace_name/src/qt_ros_test/script. Afterward, initialize the environment variables.
 
 3.Open the /etc/hosts file and add the robot's IP address and username to this file, then restart the network.
 
 4.Open the qt_ros_test.launch file and change the virtual machine password to your own password.
 
-5. Configure the virtual machine with dual network adapters, setting both to bridge mode. One should be connected to the PC’s wireless network card, and the other should be connected to the Ethernet.
+5.Configure the virtual machine with dual network adapters, setting both to bridge mode. One should be connected to the PC’s wireless network card, and the other should be connected to the Ethernet.
 
 6.After navigating to the directory, enter the “bash initssh.sh”and “roslaunch qt_ros_test qt_ros_test.launch” commands in the terminal to start the package。
 
