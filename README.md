@@ -54,5 +54,5 @@ After starting the software, click the "connect" button on the right to establis
 <img width="1280" alt="Cloud-1" src="https://github.com/user-attachments/assets/541e7abb-1d7b-4e7f-acae-c0df87319367" />
 <img width="1280" alt="Cloud-2" src="https://github.com/user-attachments/assets/cbe0ffb0-53c0-4975-b258-d4bafd39b2a3" />
 
-
+The related demo video is as follows: 【Online Monitoring Software for Inspection Car Based on ROS and WSN - Bilibili】 https://b23.tv/D4zk1kA
 
