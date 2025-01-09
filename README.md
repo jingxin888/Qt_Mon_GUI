@@ -20,9 +20,10 @@ Software Requirements：
 5.IAR Embedded Workbench for 8051 V8.10.
 
 
-Program Application Setup
+Program Application Setup：
 
-ZigBee Wireless Sensor Network
+ZigBee Wireless Sensor Network：
+
 1.Navigate to the directory “ZStack-CC2530-2.5.1a/Projects/zstack/Samples/GenericApp/CC2530DB/” and open the GenericApp.eww project using IAR Embedded Workbench for 8051.  
 2.Build the “EndDevice” and “Coordinator” separately, then use CC Debugger to download the application to the CC2530 board. (Note: When downloading the EndDevice, manually modify the node ID value at line 151 in the enddevice.c file, for example, change it to ‘1’ or ‘2’).  
 3.Connect all sensors to the EndDevice and link the Coordinator to the robot via the serial port.  
