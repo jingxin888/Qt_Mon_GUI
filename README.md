@@ -1,9 +1,9 @@
-#Introduction：
+# Introduction：
 
   The inspection robot proposed in this project, based on ROS (Robot Operating System) and WSN (Wireless Sensor Network), is capable of constructing a map of its surrounding environment and continuously monitoring environmental data. The collected data is then uploaded to a cloud platform. This robot has wide applications in areas such as warehouse logistics and intelligent inspection, with promising prospects in the market.
 
 
-#Hardware Requirements：
+# Hardware Requirements：
 
   1.ROS Four-Wheel Robot (equipped with NVIDIA Jetson Nano B01, STM32 microcontroller, SLAM LiDAR RPLIDAR A1, Orbbec Astra S Depth Camera, system USB drive, and Wi-Fi wireless network card, etc.)  
   2.CC2530 ZigBee EndDevice and Coordinator.  
@@ -11,7 +11,7 @@
 ![Hardware Requirements](https://github.com/user-attachments/assets/298e4b3e-45ef-48b7-ad97-4af97d668fa0)
 
 
-#Software Requirements：
+# Software Requirements：
 
   1.The operating system of the PC (VMware virtual machine) is Ubuntu 18.04.6 LTS.  
   2.The ROS version is Melodic 1.14.13.  
@@ -20,7 +20,7 @@
   5.IAR Embedded Workbench for 8051 V8.10.
 
 
-#Program Application Setup：
+# Program Application Setup：
 
 ZigBee Wireless Sensor Network：
 
@@ -54,7 +54,7 @@ Create OneNET Corresponding Device and Data Stream：
 ![Data Stream](https://github.com/user-attachments/assets/9c5965ea-9c5e-4dc5-b5f5-3af1b5a0e8e2)
 
 
-#Real-time Inspection Status and Environmental Data Viewing：
+# Real-time Inspection Status and Environmental Data Viewing：
 
   After starting the software, click the "connect" button on the right to establish a remote connection with the robot. Once "Online" appears at the top left of the software, the connection is successful. You can enable the camera and keyboard control of the robot by checking the "camera" and "keyboard control" buttons. Additionally, you can quickly launch the Rviz visualization interface, mapping functions, navigation features, etc., through other buttons. Clicking the "Get Node Data" button will retrieve the data from each node in the ZigBee wireless sensor network and display it in real-time on the interface. Using the "send_marker" button, you can send specified coordinate information to Rviz for display. The environmental data collected in the above process will be uploaded via the HTTP protocol to the corresponding device's data stream on the OneNET cloud platform.
 ![GUI-1](https://github.com/user-attachments/assets/ec6a7814-5743-4e67-9274-766f03d59cac)
