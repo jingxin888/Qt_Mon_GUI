@@ -41,7 +41,9 @@ Qt-based Remote Monitoring Application：
 Create OneNET Corresponding Device and Data Stream：
 
 1.Log in to the OneNET cloud platform and register the relevant product (select HTTP as the access protocol). Obtain the product name, ID, device key, etc., and use the token to calculate and obtain the encrypted security authentication key.
+
 2.Modify the parameters related to your device information in the uploadData() function in the main_window.cpp file of the package mentioned above.
+
 3.Set the corresponding data stream model in the product section of the OneNET cloud platform.
 ![Data Stream](https://github.com/user-attachments/assets/9c5965ea-9c5e-4dc5-b5f5-3af1b5a0e8e2)
 
